@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./CheckPoint-05-ES/css/styles.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./CheckPoint-05-ES/css/styles.css"
+},
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
     "tailwindcss": "^4.3.3"
